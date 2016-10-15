@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+
+<body>
+    <form method="post">
+        <!-- Método post oculta los datos de la barra de navegación -->
+        <label for="nombre">Nombre</label>
+        <!--Asociar el label con le texto, para que se comporte como un título-->
+        <input type="text" name="name" id="nombre">
+        <br>
+        <label for="matricula">Matrícula</label>
+        <input type="text" name="studentNumber" id="matricula">
+        <!-- Name: identifica el atributo que usaremos con el método POST -->
+        <br>
+        <label for="edad">Edad</label>
+        <input type="text" name="age" id="edad" class="captura">
+        <br>
+        <input type="submit" value="Enviar" id="btnEnviar">
+    </form>
+
+
+    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha256-/SIrNqv8h6QGKDuNoLGA4iret+kyesCkHGzVUUV0shc=" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
